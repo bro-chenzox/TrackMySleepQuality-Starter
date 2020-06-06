@@ -19,6 +19,7 @@ package com.example.android.trackmysleepquality.sleeptracker
 import android.app.Application
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
+import com.example.android.trackmysleepquality.database.SleepDatabase
 import com.example.android.trackmysleepquality.database.SleepDatabaseDao
 import java.lang.IllegalArgumentException
 
@@ -39,4 +40,3 @@ class SleepTrackerViewModelFactory(
         throw IllegalArgumentException("Unknown ViewModel class")
     }
 }
-
